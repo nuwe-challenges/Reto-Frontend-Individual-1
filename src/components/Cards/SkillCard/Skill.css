@@ -103,10 +103,10 @@
   .chart-container {
     height: 250px;
   }
-}
 
-.skill-options {
-  width: 70%;
-  font-size: 9px;
-  margin: 10px 0px 5px 0px;
+  .skill-options {
+    width: 70%;
+    font-size: 9px;
+    margin: 10px 0px 5px 0px;
+  }
 }
