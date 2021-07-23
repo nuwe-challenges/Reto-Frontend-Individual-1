@@ -19,28 +19,28 @@ export default function Navbar() {
       </div>
       <ul className="nav_list">
         <li>
-          <a href="#">
+          <a href="//#endregion">
             <Icons.BsHouseDoor className="icon_text" />
             <span className="links_name">Panel</span>
           </a>
           <span className="tooltip">Panel</span>
         </li>
         <li>
-          <a href="#">
+          <a href="//#endregion">
             <Icons.IoBusinessOutline className="icon_text" />
             <span className="links_name">Empresas</span>
           </a>
           <span className="tooltip">Empresas</span>
         </li>
         <li>
-          <a href="#">
+          <a href="//#endregion">
             <Icons.AiOutlineUser className="icon_text" />
             <span className="links_name">Perfil</span>
           </a>
           <span className="tooltip">Perfil</span>
         </li>
         <li>
-          <a href="#">
+          <a href="//#endregion">
             <Icons.AiOutlineInfoCircle className="icon_text" />
             <span className="links_name">Contacto</span>
           </a>

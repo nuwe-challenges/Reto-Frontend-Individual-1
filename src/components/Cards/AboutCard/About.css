@@ -85,3 +85,10 @@
     padding: 0px;
   }
 }
+
+@media screen and (max-width: 490px) {
+  .about-card {
+    height: 50%;
+    font-size: 10px;
+  }
+}

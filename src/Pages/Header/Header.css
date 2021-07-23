@@ -49,3 +49,9 @@
     left: 120%;
   }
 }
+
+@media screen and (max-width: 490px) {
+  .edit-cards {
+    left: 99%;
+  }
+}

@@ -88,3 +88,12 @@
   outline: none;
   color: #fff;
 }
+
+@media screen and (max-width: 490px) {
+  .modal__dialog {
+    width: 200px;
+    height: 230px;
+    margin-left: 90px;
+    font-size: 10px;
+  }
+}

@@ -2,7 +2,7 @@
   overflow-x: hidden;
   overflow-y: scroll;
   height: 100vh;
-  width: 100%;
+  width: 100vw;
 }
 
 .App::-webkit-scrollbar {
@@ -15,4 +15,11 @@
   justify-items: center;
   align-items: center;
   margin-top: 5%;
+}
+
+@media screen and (max-width: 490px) {
+  .content-son {
+    width: 100%;
+    margin-left: 43px;
+  }
 }

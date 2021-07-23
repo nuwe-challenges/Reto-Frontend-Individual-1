@@ -94,3 +94,18 @@
     display: none;
   }
 }
+
+@media screen and (max-width: 490px) {
+  .skill-container {
+    font-size: 10px;
+  }
+
+  .chart-container {
+    height: 250px;
+  }
+}
+
+.skill-options {
+  width: 70%;
+  font-size: 10px;
+}

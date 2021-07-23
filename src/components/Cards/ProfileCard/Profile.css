@@ -157,3 +157,14 @@
     height: 30px;
   }
 }
+
+@media screen and (max-width: 490px) {
+  .lower-container {
+    margin-top: 5%;
+    font-size: 10px;
+  }
+
+  .profile-description {
+    font-size: 10px;
+  }
+}

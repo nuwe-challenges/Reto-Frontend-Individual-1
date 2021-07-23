@@ -33,7 +33,7 @@ export default function ProfileCard() {
               <Icons.AiOutlineLinkedin className="social" />
               <Icons.FaGithub className="social" />
             </div>
-            <div>
+            <div className="location-content">
               <Icons.GoLocation className="location" />
               <span style={{ fontSize: "11px" }}>Venezuela, Punto Fijo</span>
             </div>
