@@ -1,0 +1,7 @@
+.general-container {
+  display: flex;
+  justify-content: center;
+  height: 48%;
+  width: 60%;
+  margin-top: 2%;
+}

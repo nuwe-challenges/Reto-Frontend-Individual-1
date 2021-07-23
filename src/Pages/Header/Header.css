@@ -1,0 +1,51 @@
+.header-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  width: 60%;
+  gap: 10px;
+}
+
+.edit-cards {
+  position: relative;
+  left: 120%;
+  top: -20px;
+  cursor: pointer;
+  font-size: 25px;
+  color: #fff;
+}
+
+.item-2 {
+  margin-top: -10%;
+  width: 100%;
+}
+
+.item-1 {
+  height: 600px;
+}
+
+/*------------------Pseudo Clases--------------------*/
+.edit-cards:hover {
+  transition: all 0.5s ease;
+  color: rgb(40, 53, 91);
+}
+
+/*-------------------Queries-------------------------*/
+
+@media screen and (max-width: 1300px) {
+  .item-2 {
+    margin-top: 10px;
+    width: 100%;
+  }
+
+  .item-1 {
+    height: 500px;
+  }
+}
+
+@media screen and (max-width: 990px) {
+  .edit-cards {
+    left: 120%;
+  }
+}

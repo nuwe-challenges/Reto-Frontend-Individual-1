@@ -1,0 +1,14 @@
+.chart-container {
+  display: flex;
+  flex-direction: column;
+  justify-items: center;
+  align-items: center;
+  border-radius: 5px;
+  background: #2d2b3e;
+  height: 350px;
+  margin-bottom: 5px;
+}
+
+.chart-title {
+  text-align: center;
+}

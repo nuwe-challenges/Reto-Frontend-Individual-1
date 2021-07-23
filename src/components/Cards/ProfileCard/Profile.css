@@ -1,0 +1,159 @@
+.profile-container {
+  cursor: pointer;
+  width: 100%;
+  height: 100%;
+  align-items: center;
+}
+
+.profile-card {
+  height: 80%;
+  display: flex;
+  flex-direction: column;
+  justify-items: center;
+  width: 100%;
+  background: #11101d;
+  color: #fff;
+  border-radius: 10px;
+  box-shadow: 0px 1px 10px 1px #000;
+}
+
+.upper-container {
+  display: flex;
+  justify-content: center;
+  height: 100px;
+  background: linear-gradient(to left, #2d00f7, #ff0291);
+}
+
+.image-container {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  padding: 5px;
+  transform: translate(0, 40px);
+}
+
+.avatar {
+  height: 100%;
+  width: 100%;
+  border: 2px solid #11101d;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.lower-container {
+  margin-top: 5px;
+  height: 80%;
+  text-align: center;
+  font-family: "Roboto";
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.profile-description {
+  width: 80%;
+  font-size: 15px;
+}
+
+.profile-content {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 60%;
+  margin: 20px 0px 20px 0px;
+}
+
+.social {
+  height: 20px;
+  width: 20px;
+  cursor: pointer;
+}
+
+.location {
+  height: 20px;
+  width: 20px;
+}
+
+.connection-time {
+  font-size: 11px;
+}
+
+.looking_work {
+  margin-bottom: 20px;
+}
+
+.user-stack {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.user-stack .stack-image {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(60px, 1fr));
+  align-items: center;
+  justify-items: center;
+  width: 40vw;
+  border-bottom: 1px solid #fff;
+  border-radius: 3px;
+}
+
+.user-stack .stack-image img {
+  height: 60px;
+  width: 60px;
+  border-radius: 5px;
+}
+
+/*---------Pseudo clases------------*/
+
+.profile-card:hover {
+  box-shadow: 0px 1px 10px 1px #fff;
+  transition: all 0.5s ease;
+}
+
+.social:hover {
+  color: rgb(188, 179, 179);
+}
+
+/*---------Queries------------*/
+
+@media screen and (max-width: 990px) {
+  .profile-container {
+    height: 120%;
+  }
+  .profile-content {
+    display: flex;
+    flex-direction: column-reverse;
+    margin-bottom: 4px;
+  }
+
+  .lower-container {
+    height: 100%;
+    margin-top: 15px;
+    font-size: 15px;
+  }
+
+  .looking_work {
+    display: none;
+  }
+
+  .stack-image {
+    padding: 5px;
+  }
+
+  .user-stack .stack-image img {
+    width: 90px;
+    height: 50px;
+  }
+
+  .profile-content .connection-time {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 640px) {
+  .user-stack .stack-image img {
+    height: 30px;
+  }
+}
