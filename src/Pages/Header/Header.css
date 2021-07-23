@@ -51,6 +51,9 @@
 }
 
 @media screen and (max-width: 490px) {
+  .item-2 {
+    margin-top: -15px;
+  }
   .edit-cards {
     left: 99%;
   }
